@@ -7,29 +7,30 @@ function Homepage() {
         {/* <!-- Featured Post --> */}
         <article className="post featured">
           <header className="major">
-            <span className="date">"about me"</span>
-            <h2>
-              <a href="#">about me section</a>
-            </h2>
+            <span className="date">Josh Sease</span>
+            <h2>about Me...</h2>
             <p>
-              full stack webdev....... love solving problems.....enjoy
-              collaborating.....
+              Creative, detail-oriented, software engineer with a deep interest
+              in cloud services. Proven track record of creating and
+              implementing successful front and back end web applications.
+              Looking to bring my skills to a tech company with global reach.
             </p>
           </header>
-          <a href="#" className="image main">
+          {/* <a href="#" className="image main">
             <img src="" alt="TECH/PROFESSION PIC INSERT HERE" />
           </a>
           <ul className="actions special">
             <li>
-            <Link to='projects' className="button">"Projects"</Link>
+              <Link to="projects" className="button">
+                "Projects"
+              </Link>
             </li>
-          </ul>
+          </ul> */}
         </article>
 
         {/* <!-- Posts --> */}
-        <h2 style={{ textAlign: "center" }}>Technolgies </h2>
-        
-        
+        <h2 style={{ textAlign: "center" }}>Technologies </h2>
+
         <section className="posts">
           <article>
             <header>
@@ -38,14 +39,25 @@ function Homepage() {
               </h2>
             </header>
             <a href="#" className="image fit">
-              <img src="images/pic02.jpg" alt="" />
+              <img
+                className="overlay-image"
+                src="https://i.postimg.cc/Qtt5qLmf/Welcome-to-Paris.png"
+                alt=""
+              />
             </a>
             <p>
-              My entry point into the tech industry was the build of this visitor information site for Paris, France.<br/><span style={{fontSize:'13px'}}>View more of my projects below.</span>
+              My entry point into the tech industry was the build of this
+              visitor information site for Paris, France.
+              <br />
             </p>
+            <span style={{ fontSize: "13px" }}>
+              View more of my projects below.
+            </span>
             <ul className="actions special">
               <li>
-              <Link to='projects' className="button">"Projects"</Link>
+                <Link to="projects" className="button">
+                  "Projects"
+                </Link>
               </li>
             </ul>
           </article>
@@ -56,14 +68,25 @@ function Homepage() {
               </h2>
             </header>
             <a href="#" className="image fit">
-              <img src="images/pic02.jpg" alt="" />
+              <img
+                src="https://i.postimg.cc/vmKyBjPJ/Pic-of-the-Day.png"
+                alt=""
+              />
             </a>
             <p>
-              Passion project for me was building a NASA Photo of the Day app, that generations the picture for the specified date and short description. <br/><span style={{fontSize:'13px'}}>View more of my projects below.</span>
+              Passion project for me was building a NASA Photo of the Day app,
+              that generations the picture for the specified date and short
+              description.{" "}
             </p>
+            <span style={{ fontSize: "13px" }}>
+              View more of my projects below.
+            </span>
+
             <ul className="actions special">
               <li>
-              <Link to='projects' className="button">"Projects"</Link>
+                <Link to="projects" className="button">
+                  "Projects"
+                </Link>
               </li>
             </ul>
           </article>
@@ -74,14 +97,25 @@ function Homepage() {
               </h2>
             </header>
             <a href="#" className="image fit">
-              <img src="images/pic02.jpg" alt="" />
+              <img
+                classNameName="container-pic image overlay-image"
+                src="https://i.postimg.cc/L4Lnf6Bx/Chick-Fil-A-1.png"
+                alt=""
+              />
             </a>
             <p>
-            
+              A fun project for me is redesigning a favorite website of mine.
+              For me to cement my skills using the react framework.
             </p>
+            <span style={{ fontSize: "13px" }}>
+              View more of my projects below.
+            </span>
+
             <ul className="actions special">
               <li>
-              <Link to='projects' className="button">"Projects"</Link>
+                <Link to="projects" className="button">
+                  "Projects"
+                </Link>
               </li>
             </ul>
           </article>
@@ -92,14 +126,25 @@ function Homepage() {
               </h2>
             </header>
             <a href="#" className="image fit">
-              <img src="images/pic02.jpg" alt="" />
+              <img
+                className="overlay-image"
+                src="https://i.postimg.cc/nc9TqmS6/Josh-To-Do-s.png"
+                alt=""
+              />
             </a>
             <p>
-             To better improve my time management, I developed an task tracker application (Josh ToDos) that allows me to create task, check task, change and delete a task using MySQL. 
+              To better improve my time management, I developed an task tracker
+              application (Josh ToDos) that allows me to create task, check
+              task, change and delete a task using MySQL.
             </p>
+            <span style={{ fontSize: "13px" }}>
+              View more of my projects below.
+            </span>
             <ul className="actions special">
               <li>
-              <Link to='projects' className="button">"Projects"</Link>
+                <Link to="projects" className="button">
+                  "Projects"
+                </Link>
               </li>
             </ul>
           </article>

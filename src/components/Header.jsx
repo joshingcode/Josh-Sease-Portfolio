@@ -1,26 +1,20 @@
 import React from "react";
 import {Link} from 'react-router-dom'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 function Header() {
+
+    const arrowDown= <FontAwesomeIcon  className="icon button solid solo scrolly" icon={faArrowDown} />
   return (
     <>
       {/* <!-- Intro --> */}
-      <div id="intro">
+      <div id="intro" className="header-img">
         <h1>
-          Josh
-          <br />
-          Sease
+          <img src="https://i.postimg.cc/TPTX24z9/default-monochrome.png" />
         </h1>
-        <p>a lil portfilio</p>
-        <ul className="actions">
-          <li>
-            <a
-              href="#header"
-              className="button icon solid solo fa-arrow-down scrolly"
-            >
-              Continue
-            </a>
-          </li>
-        </ul>
+        <p>Software Engineer</p>
+       
+       
       </div>
 
       {/* <!-- Header --> */}
@@ -33,18 +27,18 @@ function Header() {
       {/* <!-- Nav --> */}
       <nav id="nav">
         <ul className="links">
-          <li className="active">
+          <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to='projects'>Projects</Link>
+            <Link to="projects">Projects</Link>
           </li>
 
-          <li className="active">
-           <Link to="contact">Contact Me !</Link>
+          <li>
+            <Link to="contact">Contact Me!</Link>
           </li>
         </ul>
-        <ul className="icons">
+        {/* <ul className="icons">
           <li>
             <a href="#" className="icon brands fa-twitter">
               <span className="label">Twitter</span>
@@ -65,7 +59,7 @@ function Header() {
               <span className="label">GitHub</span>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </nav>
     </>
   );

@@ -1,6 +1,15 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 function Footer() {
+  const link = <FontAwesomeIcon icon={faLinkedin} />;
+  const git = <FontAwesomeIcon icon={faGithub} />;
+  const twit = <FontAwesomeIcon icon={faTwitter} />;
+
   return (
     <>
       {/* <footer>
@@ -35,15 +44,15 @@ function Footer() {
           <form method="post" action="#">
             <div className="fields">
               <div className="field">
-                <label for="name">Name</label>
+                <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name" />
               </div>
               <div className="field">
-                <label for="email">Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="text" name="email" id="email" />
               </div>
               <div className="field">
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea name="message" id="message" rows="3"></textarea>
               </div>
             </div>
@@ -55,13 +64,6 @@ function Footer() {
           </form>
         </section>
         <section className="split contact">
-          
-          <section>
-            <h3>Phone</h3>
-            <p>
-              <a href="#">(000) 000-0000</a>
-            </p>
-          </section>
           <section>
             <h3>Email</h3>
             <p>
@@ -71,26 +73,9 @@ function Footer() {
           <section>
             <h3>Social</h3>
             <ul className="icons alt">
-              <li>
-                <a href="#" className="icon brands alt fa-twitter">
-                  <span className="label">Twitter</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon brands alt fa-facebook-f">
-                  <span className="label">Facebook</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon brands alt fa-instagram">
-                  <span className="label">Instagram</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon brands alt fa-github">
-                  <span className="label">GitHub</span>
-                </a>
-              </li>
+              <li>{link}</li>
+              <li>{git}</li>
+              <li>{twit}</li>
             </ul>
           </section>
         </section>
@@ -98,7 +83,7 @@ function Footer() {
 
       <div id="copyright">
         <ul>
-          <li>&copy;  2023 Sease Holdings, LLC</li>
+          <li>&copy; 2023 Sease Holdings, LLC</li>
         </ul>
       </div>
     </>
