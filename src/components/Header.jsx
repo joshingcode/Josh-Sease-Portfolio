@@ -11,6 +11,7 @@ function Header() {
       <div id="intro" className="header-img">
         <h1>
           <img src="https://i.postimg.cc/TPTX24z9/default-monochrome.png" />
+          
         </h1>
         <p>Software Engineer</p>
        

@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 function Homepage() {
   return (
     <>
@@ -7,13 +7,13 @@ function Homepage() {
         {/* <!-- Featured Post --> */}
         <article className="post featured">
           <header className="major">
-            <span className="date">Josh Sease</span>
-            <h2>about Me...</h2>
+            <span className="date">about me...</span>
+            <h2></h2>
             <p>
-              Creative, detail-oriented, software engineer with a deep interest
-              in cloud services. Proven track record of creating and
+              " Creative, detail-oriented, software engineer with a deep
+              interest in cloud services. Proven track record of creating and
               implementing successful front and back end web applications.
-              Looking to bring my skills to a tech company with global reach.
+              Looking to bring my skills to a tech company with global reach."
             </p>
           </header>
           {/* <a href="#" className="image main">
@@ -98,7 +98,7 @@ function Homepage() {
             </header>
             <a href="#" className="image fit">
               <img
-                classNameName="container-pic image overlay-image"
+                className="container-pic image overlay-image"
                 src="https://i.postimg.cc/L4Lnf6Bx/Chick-Fil-A-1.png"
                 alt=""
               />
