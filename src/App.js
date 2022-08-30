@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+import './components/App.css';
 import Layout from './components/Layout';
 import Homepage from './components/Homepage';
 import Projects from './components/Projects';
