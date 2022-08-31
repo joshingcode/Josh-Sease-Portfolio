@@ -93,7 +93,7 @@ function Homepage() {
           <article>
             <header>
               <h2>
-                <a href="#">React JS</a>
+                React
               </h2>
             </header>
             <a href="#" className="image fit">
